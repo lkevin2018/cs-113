@@ -71,7 +71,7 @@ class SimplePoly(Point):
         for vertice in vertices:
             self.__pts.append(vertice)
 
-    def _iter_(self):
+    def __iter__(self):
         """
         This is the iterator for the SimplePoly class. This returns an iterable object and is implemented based on the SimplePolyIterator class.
         """
